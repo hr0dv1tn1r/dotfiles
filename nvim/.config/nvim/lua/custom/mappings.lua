@@ -1,8 +1,3 @@
--- Carrega todos os atalhos padrão do NvChad.
-require "nvchad.mappings"
-
--- add yours here
-
 -- Navegação entre janelas (splits)
 vim.keymap.set("n", "<C-h>", "<cmd>VimTmuxNavigateLeft<CR>", { silent = true })
 vim.keymap.set("n", "<C-j>", "<cmd>VimTmuxNavigateDown<CR>", { silent = true })
@@ -14,14 +9,14 @@ vim.keymap.set('n', '<leader>h', '<cmd>nohlsearch<CR>', { silent = true })
 
 
 -- Atalhos de teclado para o Copilot Chat
-vim.keymap.set('n', "<leader>cc", "<cmd>CopilotChat<CR>", { desc = "Abrir Chat do Copilot" })
-vim.keymap.set('v', "<leader>ce", "<cmd>CopilotChatExplain<CR>", { desc = "Explique o Código selecionado" })
-vim.keymap.set('v', "<leader>cr", "<cmd>CopilotChatReview<CR>", { desc = "Review Code" })
-vim.keymap.set('v', "<leader>cf", "<cmd>CopilotChatFix<CR>", { desc = "Fix Code Issues" })
-vim.keymap.set('v', "<leader>co", "<cmd>CopilotChatOptimize<CR>", { desc = "Optimize Issues" })
-vim.keymap.set('v', "<leader>cd", "<cmd>CopilotChatDocs<CR>", { desc = "Generate Docs" })
-vim.keymap.set('v', "<leader>ct", "<cmd>CopilotChatTests<CR>", { desc = "Generate Tests" })
-vim.keymap.set('v', "<leader>c", "<cmd>CopilotChatFix<CR>", { desc = "Fix Code Issues" })
+-- vim.keymap.set('n', "<leader>cc", "<cmd>CopilotChat<CR>", { desc = "Abrir Chat do Copilot" })
+-- vim.keymap.set('v', "<leader>ce", "<cmd>CopilotChatExplain<CR>", { desc = "Explique o Código selecionado" })
+-- vim.keymap.set('v', "<leader>cr", "<cmd>CopilotChatReview<CR>", { desc = "Review Code" })
+-- vim.keymap.set('v', "<leader>cf", "<cmd>CopilotChatFix<CR>", { desc = "Fix Code Issues" })
+-- vim.keymap.set('v', "<leader>co", "<cmd>CopilotChatOptimize<CR>", { desc = "Optimize Issues" })
+-- vim.keymap.set('v', "<leader>cd", "<cmd>CopilotChatDocs<CR>", { desc = "Generate Docs" })
+-- vim.keymap.set('v', "<leader>ct", "<cmd>CopilotChatTests<CR>", { desc = "Generate Tests" })
+-- vim.keymap.set('v', "<leader>c", "<cmd>CopilotChatFix<CR>", { desc = "Fix Code Issues" })
 -- vim.keymap.set('n', "<leader>ce", function()
 --     require("CopilotChat").ask_followup("Explique o código selecionado", { selection = require("CopilotChat.select").get_selection() })
 -- end, { desc = "Copilot: Explicar código selecionado"})

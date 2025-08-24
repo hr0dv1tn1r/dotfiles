@@ -14,6 +14,10 @@ path=("$HOME/.tmuxifier/bin" $path)       # Tmuxifier
 # 3. Kits de Desenvolvimento (SDKs)
 path=("$HOME/Android/Sdk/platform-tools" $path) # Ferramentas de plataforma do Android SDK
 
+
+# 4. Mason Nvim Pluin
+path=("$HOME/.local/share/nvim/mason/bin/" $path) 
+
 # === Variáveis de Ambiente Essenciais ===
 export EDITOR='nvim'
 export SUDO_EDITOR="$EDITOR"

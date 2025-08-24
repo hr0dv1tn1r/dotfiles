@@ -1,5 +1,3 @@
-require "nvchad.options"
-
 -- Suas configurações de tabulação
 vim.opt.expandtab = true    -- Usar espaços em vez de tabs
 vim.opt.tabstop = 2         -- Um tab equivale a 2 espaços
@@ -11,7 +9,7 @@ vim.opt.swapfile = false
 
 -- Mostrar números de linha
 vim.opt.number = true
---vim.opt.relativenumber = true
+vim.opt.relativenumber = true
 
--- local o = vim.o
--- o.cursorlineopt ='both' -- to enable cursorline!
+-- Destaque na linha atual
+vim.opt.cursorline = true
