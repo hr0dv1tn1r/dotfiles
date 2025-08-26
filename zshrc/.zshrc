@@ -35,9 +35,14 @@ plugins=(
 # A inicialização do Oh My Zsh deve vir depois da configuração inicial do PATH
 source $ZSH/oh-my-zsh.sh
 
+# Inicia uma sessão tmux se não estiver em uma
+tmux_run() {
+  tmux attach || tmux new-session
+}
 
 # === Aliases e Funções ===
 # Exemplo: alias ll='ls -lhaF'
+alias tload="tmux_run; tmuxifier load-session"
 
 
 # === Configuração do Histórico do Shell ===
