@@ -67,3 +67,8 @@ eval "$(jenv init -)"
 # Esta seção deve ser mantida no final, conforme a documentação do SDKMAN.
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# Start the gnome-keyring-daemon secrets component if not already running
+if ! pgrep -f -u "$USER" gnome-keyring-daemon > /dev/null; then
+  gnome-keyring-daemon --start --components=secrets
+fi

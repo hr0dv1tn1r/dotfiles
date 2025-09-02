@@ -1,0 +1,218 @@
+﻿Diagnose log at 2025-08-28T13:44:00Z
+
+AppPath: /usr/local/bin/git-credential-manager
+InstallDir: /usr/local/share/gcm-core/
+Version: 2.6.1+786ab03440ddc82e807a97c0e540f5247e44cec6
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Linux
+OSVersion: Ubuntu 24.04.3 LTS
+Reading environment variables... OK
+ Variables:
+QT_ACCESSIBILITY=1
+COLORTERM=truecolor
+rvm_path=/home/hr0d/.rvm
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:
+ZSH=/home/hr0d/.oh-my-zsh
+GDMSESSION=ubuntu
+SDKMAN_DIR=/home/hr0d/.sdkman
+TERM_PROGRAM_VERSION=3.4
+rvm_prefix=/home/hr0d
+NVM_INC=/home/hr0d/.nvm/versions/node/v22.18.0/include/node
+XDG_RUNTIME_DIR=/run/user/1000
+rvm_bin_path=/home/hr0d/.rvm/bin
+LC_NUMERIC=pt_BR.UTF-8
+WAYLAND_DISPLAY=wayland-0
+XDG_SESSION_DESKTOP=ubuntu
+LC_TELEPHONE=pt_BR.UTF-8
+SHELL=/usr/bin/zsh
+TERM_PROGRAM=tmux
+RUBY_VERSION=ruby-3.2.2
+LSCOLORS=Gxfxcxdxbxegedabagacad
+HOME=/home/hr0d
+LANGUAGE=en
+QT_IM_MODULE=ibus
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.L7THC3
+LC_ADDRESS=pt_BR.UTF-8
+GNOME_KEYRING_CONTROL=/run/user/1000/keyring
+rvm_version=1.29.12 (latest)
+ALACRITTY_WINDOW_ID=101249483197424
+_=/usr/local/bin/git-credential-manager
+QTWEBENGINE_DICTIONARIES_PATH=/usr/share/hunspell-bdic/
+LC_IDENTIFICATION=pt_BR.UTF-8
+USERNAME=hr0d
+MEMORY_PRESSURE_WATCH=/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure
+MY_RUBY_HOME=/home/hr0d/.rvm/rubies/ruby-3.2.2
+GIT_TRACE2_PARENT_SID=a70450d4-f80f-4150-ba79-983de7970e7b
+OLDPWD=/home/hr0d/dotfiles
+JENV_SHELL=zsh
+LANG=en_US.UTF-8
+GNOME_SHELL_SESSION_MODE=ubuntu
+NVM_CD_FLAGS=-q
+PAPERSIZE=a4
+USER=hr0d
+SHLVL=2
+TMUX_PLUGIN_MANAGER_PATH=/home/hr0d/.tmux/plugins/
+ALACRITTY_LOG=/tmp/Alacritty-22327.log
+LC_TIME=pt_BR.UTF-8
+INVOCATION_ID=42eb8b6f730c439aba71b550a113b252
+XMODIFIERS=@im=ibus
+LC_PAPER=pt_BR.UTF-8
+EDITOR=nvim
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_SESSION_CLASS=user
+SUDO_EDITOR=nvim
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+JENV_LOADED=1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GSM_SKIP_SSH_AGENT_WORKAROUND=true
+LC_NAME=pt_BR.UTF-8
+GEM_PATH=/home/hr0d/.rvm/gems/ruby-3.2.2:/home/hr0d/.rvm/gems/ruby-3.2.2@global
+WINDOWID=101249483197424
+TERM=tmux-256color
+LOGNAME=hr0d
+MANAGERPID=3532
+SYSTEMD_EXEC_PID=3977
+LC_MONETARY=pt_BR.UTF-8
+XDG_SESSION_TYPE=wayland
+PAGER=less
+XDG_DATA_DIRS=/home/hr0d/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/
+NVM_DIR=/home/hr0d/.nvm
+TMUX=/tmp/tmux-1000/default,32057,0
+MEMORY_PRESSURE_WRITE=c29tZSAyMDAwMDAgMjAwMDAwMAA=
+DISPLAY=:0
+GEM_HOME=/home/hr0d/.rvm/gems/ruby-3.2.2
+PWD=/home/hr0d/dotfiles
+LC_MEASUREMENT=pt_BR.UTF-8
+TMUX_PANE=%0
+SESSION_MANAGER=local/hr0d:@/tmp/.ICE-unix/3772,unix/hr0d:/tmp/.ICE-unix/3772
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+ALACRITTY_SOCKET=/run/user/1000/Alacritty-wayland-0-22327.sock
+PATH=/home/hr0d/.jenv/shims:/home/hr0d/.jenv/bin:/home/hr0d/.local/share/nvim/mason/bin/:/home/hr0d/Android/Sdk/platform-tools:/home/hr0d/.tmuxifier/bin:/opt/nvim/bin:/home/hr0d/.local/bin:/home/hr0d/bin:/home/hr0d/.jenv/shims:/home/hr0d/.jenv/bin:/home/hr0d/.nvm/versions/node/v22.18.0/bin:/home/hr0d/.rvm/gems/ruby-3.2.2/bin:/home/hr0d/.rvm/gems/ruby-3.2.2@global/bin:/home/hr0d/.rvm/rubies/ruby-3.2.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/hr0d/.rvm/bin
+GIO_LAUNCHED_DESKTOP_FILE_PID=22327
+GTK_MODULES=gail:atk-bridge
+JOURNAL_STREAM=9:25721
+LESS=-R
+XDG_MENU_PREFIX=gnome-
+NVM_BIN=/home/hr0d/.nvm/versions/node/v22.18.0/bin
+DESKTOP_SESSION=ubuntu
+IRBRC=/home/hr0d/.rvm/rubies/ruby-3.2.2/.irbrc
+GNOME_SETUP_DISPLAY=:1
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/tmp/'...
+Checking basic file I/O...
+Writing to temporary file '/tmp/efe9470a844e218d9a5540d2'... OK
+Reading from temporary file '/tmp/efe9470a844e218d9a5540d2'... OK
+Deleting temporary file '/tmp/efe9470a844e218d9a5540d2'... OK
+Testing IFileSystem instance...
+UserHomePath: /home/hr0d
+UserDataDirectoryPath: /home/hr0d/.gcm
+GetCurrentDirectory(): /home/hr0d/dotfiles
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:39163/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.43.0'
+Locating current repository...Git repository at '/home/hr0d/dotfiles/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:/home/hr0d/.gitconfig	credential.helper=manager
+file:/home/hr0d/.gitconfig	credential.helper=
+file:/home/hr0d/.gitconfig	credential.helper=/usr/local/bin/git-credential-manager
+file:/home/hr0d/.gitconfig	credential.credentialstore=secretservice
+file:/home/hr0d/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:/home/hr0d/.gitconfig	user.name=hr0dv1tn1r
+file:/home/hr0d/.gitconfig	user.email=rafaelludtech@gmail.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	remote.origin.url=https://github.com/hr0dv1tn1r/dotfiles.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+file:.git/config	branch.main.remote=origin
+file:.git/config	branch.main.merge=refs/heads/main
+file:.git/config	credential.helper=/usr/bin/git-credential-manager
+file:.git/config	credential.credentialstore=secretservice
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: False
+Exception:
+GitCredentialManager.Interop.InteropException: Failed to open secret service session
+ ---> System.Exception: No such secret item at path: /org/freedesktop/secrets/collection/login/12
+   --- End of inner exception stack trace ---
+   at GitCredentialManager.Interop.Linux.SecretServiceCollection.GetSecretService()
+   at GitCredentialManager.Interop.Linux.SecretServiceCollection.Remove(String service, String account)
+   at GitCredentialManager.CredentialStore.Remove(String service, String account)
+   at GitCredentialManager.Diagnostics.CredentialStoreDiagnostic.RunInternalAsync(StringBuilder log, IList`1 additionalFiles)
+   at GitCredentialManager.Diagnostics.Diagnostic.RunAsync()
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential...Deleting test credential...
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /home/hr0d/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /home/hr0d/.local/.IdentityService/msal.cache
+KeyringCollection: 
+KeyringSchemaName: 
+KeyringSecretLabel: 
+KeyringAttribute1: (,)
+KeyringAttribute2: (,)
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+
