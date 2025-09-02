@@ -46,6 +46,12 @@ M.general = {
     ["<leader>b"] = { "<cmd> enew <CR>", "New buffer" },
     ["<leader>ch"] = { "<cmd> NvCheatsheet <CR>", "Mapping cheatsheet" },
 
+    -- Atalhos para dividir a tela (split)
+    ['<leader>"'] = { "<cmd>split<CR>", "Split Horizontal (Tmux style)" },
+    ['<C-w>"'] = { "<cmd>split<CR>", "Split Horizontal (C-w)" },
+    ["<leader>%"] = { "<cmd>vsplit<CR>", "Split Vertical (Tmux style)" },
+    ["<C-w>%"] = { "<cmd>vsplit<CR>", "Split Vertical (C-w)" },
+
     ["<leader>fm"] = {
       function()
         vim.lsp.buf.format { async = true }
@@ -462,6 +468,23 @@ M.gitsigns = {
       end,
       "Toggle deleted",
     },
+  },
+}
+
+M.copilot_chat = {
+  n = {
+    -- Comandos do Copilot
+    ["<leader>zc"] = { "<cmd>CopilotChat<CR>", "Abrir Chat do Copilot" },
+    ["<C-r>"] = { "<cmd>CopilotChatReset<CR>", "Reset Chat Windows" },
+  },
+  v = {
+    -- Atalhos para o modo visual
+    ["<leader>ze"] = { "<cmd>CopilotChatExplain<CR>", "Explique o código selecionado" },
+    ["<leader>zr"] = { "<cmd>CopilotChatReview<CR>", "Review Code" },
+    ["<leader>zf"] = { "<cmd>CopilotChatFix<CR>", "Fix Code Issues" },
+    ["<leader>zo"] = { "<cmd>CopilotChatOptimize<CR>", "Optimize Issues" },
+    ["<leader>zd"] = { "<cmd>CopilotChatDocs<CR>", "Generate Docs" },
+    ["<leader>zt"] = { "<cmd>CopilotChatTests<CR>", "Generate Tests" },
   },
 }
 

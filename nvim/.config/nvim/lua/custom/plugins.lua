@@ -73,12 +73,30 @@ local plugins = {
   },
   {
     "luckasRanarison/tailwind-tools.nvim",
-    dependencies = { 
+    dependencies = {
       "nvim-treesitter/nvim-treesitter",
       "nvim-telescope/telescope.nvim",
       "neovim/nvim-lspconfig",
     },
     opts = {},
+  },
+  {
+    "github/copilot.vim",
+    lazy = false,
+  },
+  {
+    "CopilotC-Nvim/CopilotChat.nvim",
+    dependencies = {
+      {
+        "github/copilot.vim",
+        lazy = false,
+      },
+    },
+    lazy = false,
+    build = 'make tiktoken',
+    opts = {
+      -- Configs
+    },
   },
 }
 return plugins
