@@ -24,7 +24,7 @@ fi
 # Descompacta o binário local e move para /opt
 sudo rm -rf /opt/nvim
 sudo tar -C /opt -xzf ${LOCAL_ARCHIVE_PATH}
-sudo mv /opt/nvim-linux64 /opt/nvim
+sudo mv /opt/nvim-linux-x86_64 /opt/nvim
 
 echo "Neovim instalado em /opt/nvim."
 
