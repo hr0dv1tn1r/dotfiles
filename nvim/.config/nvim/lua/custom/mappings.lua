@@ -6,7 +6,7 @@ vim.keymap.set("n", "<C-k>", "<cmd>VimTmuxNavigateUp<CR>", { silent = true })
 vim.keymap.set("n", "<C-l>", "<cmd>VimTmuxNavigateRight<CR>", { silent = true })
 
 -- Remover destaque da busca
-vim.keymap.set('n', '<leader>h', '<cmd>nohlsearch<CR>', { silent = true })
+-- vim.keymap.set('n', '<leader>h', '<cmd>nohlsearch<CR>', { silent = true })
 
 
 -- Atalhos de teclado para o Copilot Chat
@@ -27,6 +27,10 @@ vim.keymap.set("n", "<leader>\"", "<cmd>split<CR>", { desc = "Split Horizontal (
 vim.keymap.set("n", "<C-w>\"", "<cmd>split<CR>", { desc = "Split Horizontal (C-w)" })
 vim.keymap.set("n", "<leader>%", "<cmd>vsplit<CR>", { desc = "Split Vertical (Tmux style)" })
 vim.keymap.set("n", "<C-w>%", "<cmd>vsplit<CR>", { desc = "Split Vertical (C-w)" })
+
+-- Mapear atalhos de dobras no modo normal
+vim.keymap.set("n", "zA", "zR", { desc = "Abrir todas as dobras" })
+vim.keymap.set("n", "zC", "zM", { desc = "Fechar todas as dobras" })
 
 -- map({ "n", "i", "v" }, "<C-s>", "<cmd> w <cr>")
 --map("n", ";", ":", { desc = "CMD enter command mode" })
