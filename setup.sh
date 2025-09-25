@@ -32,6 +32,15 @@ echo "Neovim instalado em /opt/nvim."
 echo "--- 3. Definindo o Zsh e Diretórios ---"
 chsh -s $(which zsh)
 
+# 4. Instalação do Oh My Zsh (antes de configurar o shell)
+if [ ! -d "$HOME/.oh-my-zsh" ]; then
+    echo "--- 4. Instalando Oh My Zsh ---"
+    # Este comando instala o framework no diretório padrão (~/.oh-my-zsh)
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+else
+    echo "Oh My Zsh já instalado."
+fi
+
 # Cria diretórios necessários para Tmuxifier e TPM
 mkdir -p ~/.config/tmuxifier/layouts
 mkdir -p ~/.tmux/plugins
