@@ -5,7 +5,7 @@
 # ====================================================================
 
 # 1. Instalação de Ferramentas Essenciais
-echo "--- 1. Instalando Dependências (Git, Stow, Zsh, Tmux) ---"
+echo "--- 1. Instalando Dependências e Ferramentas Essenciais ---"
 sudo apt update
 sudo apt install -y git wget curl build-essential stow zsh tmux
 
@@ -32,22 +32,22 @@ echo "Neovim instalado em /opt/nvim."
 echo "--- 3. Definindo o Zsh e Diretórios ---"
 chsh -s $(which zsh)
 
-# 4. Instalação do Oh My Zsh (antes de configurar o shell)
+# 4. Instalação do Oh My Zsh
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
     echo "--- 4. Instalando Oh My Zsh ---"
-    # Este comando instala o framework no diretório padrão (~/.oh-my-zsh)
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 else
     echo "Oh My Zsh já instalado."
 fi
 
-# Cria diretórios necessários para Tmuxifier e TPM
+# 5. Cria diretórios necessários para Tmuxifier e TPM
+echo "--- 5. Configurando Diretórios de Ferramentas ---"
 mkdir -p ~/.config/tmuxifier/layouts
 mkdir -p ~/.tmux/plugins
 
-# 4. Instalação do TPM (Tmux Plugin Manager)
+# 6. Instalação do TPM (Tmux Plugin Manager)
 if [ ! -d ~/.tmux/plugins/tpm ]; then
-    echo "Instalando o TPM..."
+    echo "--- 6. Instalando o TPM ---"
     git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 else
     echo "TPM já instalado."
