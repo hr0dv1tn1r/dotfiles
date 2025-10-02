@@ -57,7 +57,7 @@ tmux_run() {
 
 # === Aliases e Funções ===
 alias ll='ls -lhaF'
-alias tload="tmux_run; tmuxifier load-session"
+alias tload="tmuxifier load-session"
 alias cat="smart_cat"
 
 # === Configuração do Histórico do Shell ===
