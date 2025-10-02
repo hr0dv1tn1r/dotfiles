@@ -1,4 +1,19 @@
-# Last updated: 12 de Agosto de 2025
+# Last updated:  2025-10-02
+#
+# ===  FUNCTIONS ===
+# Função que tenta usar 'bat' ou 'batcat' e volta para 'cat' se não encontrar
+smart_cat() {
+    # Tenta usar 'bat'
+    if command -v bat &> /dev/null; then
+        bat "$@"
+    # Tenta usar 'batcat' (nome do pacote no Debian/Ubuntu)
+    elif command -v batcat &> /dev/null; then
+        batcat "$@"
+    # Se nenhum dos dois existir, usa o 'cat' padrão
+    else
+        cat "$@"
+    fi
+}
 
 # === CONSTRUÇÃO DO PATH (Método Zsh Moderno) ===
 # A diretiva 'typeset -U' garante que todos os caminhos sejam únicos.
@@ -41,9 +56,9 @@ tmux_run() {
 }
 
 # === Aliases e Funções ===
-# Exemplo: alias ll='ls -lhaF'
+alias ll='ls -lhaF'
 alias tload="tmux_run; tmuxifier load-session"
-
+alias cat="smart_cat"
 
 # === Configuração do Histórico do Shell ===
 HISTFILE=~/.zshrc_history
